@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qamqor AI — Ақылды көмекші</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🌿 Qamqor AI</h2>
+        <nav>
+            <a href="#home">Басты бет</a>
+            <a href="#about">Жоба туралы</a>
+            <a href="#features">Мүмкіндіктер</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tag">Әр балаға — ерекше мүмкіндік</p>
+                <h1>Білім алу енді оңай әрі қызықты!</h1>
+                <p>
+                    Qamqor AI — ерекше білім беру қажеттіліктері бар
+                    балаларға арналған ақылды оқу көмекшісі.
+                </p>
+                <button id="startButton">Көмекшіні бастау</button>
+            </div>
+            <div class="hero-image">🌈</div>
+        </section>
+
+        <section class="features" id="features">
+            <h2>Біздің мүмкіндіктер</h2>
+            <div class="cards">
+                <article class="card">
+                    <span>🤖</span>
+                    <h3>Ақылды көмекші</h3>
+                    <p>Сұрақтарға қарапайым әрі түсінікті жауап береді.</p>
+                </article>
+                <article class="card">
+                    <span>📚</span>
+                    <h3>Жеке оқу</h3>
+                    <p>Тапсырмаларды шағын қадамдарға бөліп түсіндіреді.</p>
+                </article>
+                <article class="card">
+                    <span>🔊</span>
+                    <h3>Дыбыстау</h3>
+                    <p>Мәтінді тыңдауға мүмкіндік береді.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>Qamqor AI туралы</h2>
+            <p>
+                Біздің мақсатымыз — әр баланың білім алуын қолжетімді,
+                ыңғайлы және қызықты ету.
+            </p>
+        </section>
+
+        <section class="assistant">
+    <h2>Сенің ақылды көмекшің 🤖</h2>
+    <button id="largeTextButton">
+    🔎 Үлкен мәтін
+</button>
+
+    <div class="chat-container">
+        <div id="chatArea">
+    <div class="bot-message">
+        Сәлем! 👋 Мен Qamqor AI көмекшісімін.
+        Қандай сұрағың бар?
+        <button class="speak-button" onclick="speakText(this)">
+            🔊 Тыңдау
+        </button>
+    </div>
+</div>
+
+        <div class="chat-input">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Сұрағыңды осында жаз..."
+            >
+            <button id="sendButton">Жіберу</button>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2026 Qamqor AI. Барлық құқықтар қорғалған.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
