@@ -306,3 +306,20 @@ footer {
 .speak-button:hover {
     background: #c5e5d2;
 }
+body.large-text {
+    font-size: 20px;
+}
+
+body.large-text h1 {
+    font-size: 48px;
+}
+
+body.large-text h2 {
+    font-size: 34px;
+}
+
+body.large-text p,
+body.large-text button,
+body.large-text input {
+    font-size: 20px;
+}

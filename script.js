@@ -81,3 +81,8 @@ function speakText(button) {
 
     window.speechSynthesis.speak(speech);
 }
+const largeTextButton = document.getElementById("largeTextButton");
+
+largeTextButton.addEventListener("click", function () {
+    document.body.classList.toggle("large-text");
+});
